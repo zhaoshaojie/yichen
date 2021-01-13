@@ -1,4 +1,4 @@
-package com.example.hello.service.thead;
+package com.example.freemarkdemo.service.thead;
 
 /**
  * @Message:

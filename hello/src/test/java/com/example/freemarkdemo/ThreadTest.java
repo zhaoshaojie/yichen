@@ -1,9 +1,4 @@
-package com.example.hello;
-
-import com.example.hello.service.thead.MyThread1;
-import org.apache.catalina.Executor;
-
-import java.util.concurrent.ExecutorService;
+package com.example.freemarkdemo;
 
 /**
  * @Message:
@@ -28,6 +23,5 @@ public class ThreadTest {
         }*/
 
         System.out.println(Thread.currentThread().getName()+"   Start");
-        ExecutorService executorService = Executor.newString
     }
 }

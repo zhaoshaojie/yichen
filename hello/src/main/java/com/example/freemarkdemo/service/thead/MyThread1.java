@@ -1,16 +1,13 @@
-package com.example.hello.service.thead;
-
-import java.util.Collection;
-import java.util.concurrent.Callable;
+package com.example.freemarkdemo.service.thead;
 
 /**
  * @Message:
  * @Author:zhaoshaojie
- * @Date:2020/7/2322:45
+ * @Date:2020/7/2322:42
  */
-public class MyThread2  implements Callable<Integer> {
+public class MyThread1 implements Runnable {
     @Override
-    public Integer call() throws Exception {
+    public void run() {
         for(int i=0;i<10;i++){
             try {
                 Thread.sleep(5);
@@ -19,6 +16,5 @@ public class MyThread2  implements Callable<Integer> {
             }
             System.out.println("run"+i);
         }
-        return 10000;
     }
 }
